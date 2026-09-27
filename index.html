@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ciberseguridad y Tecnologías Emergentes</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #eef3f8;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #071952, #088395);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 38px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .contenedor {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        section {
+            background: white;
+            margin-bottom: 25px;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+        }
+
+        h2 {
+            color: #071952;
+            border-bottom: 3px solid #35a29f;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            color: #088395;
+        }
+
+        ul, ol {
+            padding-left: 30px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        .imagen-ciber {
+            display: block;
+            width: 80%;
+            max-width: 600px;
+            margin: 20px auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        audio {
+            display: block;
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        .enlace {
+            display: inline-block;
+            background: #088395;
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .enlace:hover {
+            background: #071952;
+        }
+
+        form {
+            background: #f4f8fb;
+            padding: 25px;
+            border-radius: 12px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+            padding: 12px;
+            margin-top: 6px;
+            margin-bottom: 15px;
+            border: 1px solid #bbb;
+            border-radius: 7px;
+            font-size: 15px;
+        }
+
+        input[type="radio"] {
+            width: auto;
+            margin-right: 5px;
+        }
+
+        button {
+            width: 100%;
+            background: #071952;
+            color: white;
+            border: none;
+            padding: 14px;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #088395;
+        }
+
+        footer {
+            background: #071952;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+
+            header h1 {
+                font-size: 28px;
+            }
+
+            .contenedor {
+                width: 95%;
+            }
+
+            section {
+                padding: 18px;
+            }
+
+            .imagen-ciber {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🔐 Ciberseguridad y Tecnologías Emergentes</h1>
+        <p>Protección de datos y seguridad en el mundo digital</p>
+    </header>
+
+    <main class="contenedor">
+
+        <section>
+            <h2>¿Qué es la ciberseguridad?</h2>
+
+            <p>
+                La ciberseguridad es el conjunto de medidas utilizadas para
+                proteger dispositivos, sistemas y datos frente a ataques digitales.
+            </p>
+
+            <p>
+                Actualmente, proteger la información es importante porque los
+                datos personales pueden ser utilizados para cometer fraudes o robos.
+            </p>
+        </section>
+
+        <section>
+            <h2>Riesgos digitales</h2>
+
+            <h3>Principales riesgos</h3>
+
+            <ul>
+                <li>Phishing</li>
+                <li>Robo de contraseñas</li>
+                <li>Malware</li>
+                <li>Robo de información personal</li>
+                <li>Suplantación de identidad</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Cómo proteger una contraseña</h2>
+
+            <ol>
+                <li>Utilizar una contraseña larga y difícil de adivinar.</li>
+                <li>No utilizar información personal.</li>
+                <li>No compartir la contraseña con otras personas.</li>
+                <li>Activar la autenticación de dos factores.</li>
+                <li>Cambiar las contraseñas cuando exista un riesgo de seguridad.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Multimedia</h2>
+
+            <img 
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0DMnTl4LhMAkW3fGec5Mk8rbShDedOkMKYQMjfpLlJaRwOvDCSXyoRRiN&s=10"
+                alt="Imagen relacionada con ciberseguridad"
+                class="imagen-ciber"
+            >
+
+            <audio controls>
+                <source src="que es la ciberseguridad.mp3" type="audio/mpeg">
+            </audio>
+
+            <a 
+                href="https://www.fortinet.com/lat/resources/cyberglossary/what-is-cybersecurity"
+                target="_blank"
+                class="enlace"
+            >
+                Visitar información sobre ciberseguridad
+            </a>
+        </section>
+
+        <section>
+            <h2>Formulario de registro</h2>
+
+            <form>
+
+                <label for="nombre">Nombre completo:</label>
+                <input 
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Escribe tu nombre"
+                >
+
+                <label for="correo">Correo electrónico:</label>
+                <input 
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    placeholder="ejemplo@correo.com"
+                >
+
+                <label for="contrasena">Contraseña:</label>
+                <input 
+                    type="password"
+                    id="contrasena"
+                    name="contrasena"
+                    placeholder="Escribe una contraseña"
+                >
+
+                <label for="comentarios">Comentarios:</label>
+                <textarea 
+                    id="comentarios"
+                    name="comentarios"
+                    rows="5"
+                    placeholder="Escribe tus comentarios..."
+                ></textarea>
+
+                <label>Nivel de experiencia:</label>
+
+                <p>
+                    <input 
+                        type="radio"
+                        id="principiante"
+                        name="experiencia"
+                        value="principiante"
+                    >
+                    <label for="principiante">Principiante</label>
+                </p>
+
+                <p>
+                    <input 
+                        type="radio"
+                        id="intermedio"
+                        name="experiencia"
+                        value="intermedio"
+                    >
+                    <label for="intermedio">Intermedio</label>
+                </p>
+
+                <p>
+                    <input 
+                        type="radio"
+                        id="avanzado"
+                        name="experiencia"
+                        value="avanzado"
+                    >
+                    <label for="avanzado">Avanzado</label>
+                </p>
+
+                <label for="interes">Tema de interés:</label>
+
+                <select id="interes" name="interes">
+                    <option value="ciberseguridad">
+                        Ciberseguridad
+                    </option>
+
+                    <option value="inteligencia-artificial">
+                        Inteligencia Artificial
+                    </option>
+
+                    <option value="privacidad">
+                        Privacidad
+                    </option>
+                </select>
+
+                <button type="submit">
+                    Enviar formulario
+                </button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 - Proyecto de Ciberseguridad</p>
+    </footer>
+
+</body>
+</html>
